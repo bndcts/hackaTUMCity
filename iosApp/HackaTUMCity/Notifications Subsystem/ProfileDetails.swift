@@ -10,7 +10,7 @@ import SwiftUI
 struct ProfileDetailsView: View {
     var body: some View {
         VStack {
-            
+            //
         }
     }
 }

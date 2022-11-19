@@ -12,6 +12,7 @@
 		0B1EC0FD29291C9F00A9C0C0 /* ProfileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC0FC29291C9F00A9C0C0 /* ProfileDetails.swift */; };
 		0B1EC0FF29291CF900A9C0C0 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC0FE29291CF900A9C0C0 /* ProfileButtonView.swift */; };
 		0B1EC10129292E3E00A9C0C0 /* MockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC10029292E3E00A9C0C0 /* MockModel.swift */; };
+		0B881FAB29295AA20077C19F /* GiftBoxComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B881FAA29295AA20077C19F /* GiftBoxComponentView.swift */; };
 		50811DC42928CEAF00727047 /* HackaTUMCityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */; };
 		50811DC62928CEAF00727047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DC52928CEAF00727047 /* ContentView.swift */; };
 		50811DC82928CEB100727047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50811DC72928CEB100727047 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		0B1EC0FC29291C9F00A9C0C0 /* ProfileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetails.swift; sourceTree = "<group>"; };
 		0B1EC0FE29291CF900A9C0C0 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
 		0B1EC10029292E3E00A9C0C0 /* MockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModel.swift; sourceTree = "<group>"; };
+		0B881FAA29295AA20077C19F /* GiftBoxComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GiftBoxComponentView.swift; path = HackaTUMCity/Models/GiftBoxComponentView.swift; sourceTree = SOURCE_ROOT; };
 		50811DC02928CEAF00727047 /* HackaTUMCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaTUMCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityApp.swift; sourceTree = "<group>"; };
 		50811DC52928CEAF00727047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 		50811DF12928CF7F00727047 /* Announcements Subsystem */ = {
 			isa = PBXGroup;
 			children = (
+				0B881FAA29295AA20077C19F /* GiftBoxComponentView.swift */,
 			);
 			name = "Announcements Subsystem";
 			path = "../Announcements Subsystem";
@@ -390,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B881FAB29295AA20077C19F /* GiftBoxComponentView.swift in Sources */,
 				50AABDD82928ED10005C1479 /* Publisher.swift in Sources */,
 				50AABDCE2928DE7E005C1479 /* Message.swift in Sources */,
 				50AB9BA32929323E00F891AE /* EventResource.swift in Sources */,

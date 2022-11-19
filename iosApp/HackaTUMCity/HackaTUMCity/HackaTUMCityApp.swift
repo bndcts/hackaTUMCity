@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct HackaTUMCityApp: App {
+    @StateObject public var model: Model = Model()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(model)
         }
     }
 }

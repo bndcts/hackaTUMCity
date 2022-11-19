@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject public var model: Model
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        if model.user != nil{
+            Text("Login")
+        }else{
+            TabView {
+                Text("NotificationStub")
+                    .tabItem {
+                        Image(systemName: "building.2")
+                        Text("Notifications")
+                    }
+                Text("AnnouncementStub")
+                    .tabItem {
+                        Image(systemName: "text.bubble")
+                        Text("Announcements")
+                    }
+                
+            }
+    }
     }
 }
 

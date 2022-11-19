@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EF285AE6-E73A-46E9-98DF-A98130D96E74"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "134BEE05-EECD-4173-B658-1FFA081BA450"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Category.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "134BEE05-EECD-4173-B658-1FFA081BA450 - 93122ca1a15d45c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackaTUMCity.Category.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;HackaTUMCity.Category&gt;"
+                  moduleName = "HackaTUMCity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pascal/Desktop/Apps/HackaTum/iosApp/HackaTUMCity/Category.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "134BEE05-EECD-4173-B658-1FFA081BA450 - 1e47b19fbd7f1684"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HackaTUMCity.Category.rawValue.getter : Swift.String"
+                  moduleName = "HackaTUMCity"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pascal/Desktop/Apps/HackaTum/iosApp/HackaTUMCity/Category.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "47">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

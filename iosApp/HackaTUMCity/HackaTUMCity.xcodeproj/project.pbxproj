@@ -14,6 +14,13 @@
 		50811DD62928CEB100727047 /* HackaTUMCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DD52928CEB100727047 /* HackaTUMCityTests.swift */; };
 		50811DE02928CEB100727047 /* HackaTUMCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DDF2928CEB100727047 /* HackaTUMCityUITests.swift */; };
 		50811DE22928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DE12928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift */; };
+		50A46CD82928F6420044D734 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A46CD72928F6420044D734 /* User.swift */; };
+		50AABDCA2928DE2C005C1479 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AABDC92928DE2B005C1479 /* Model.swift */; };
+		50AABDCE2928DE7E005C1479 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AABDCD2928DE7E005C1479 /* Message.swift */; };
+		50AABDD02928DF5E005C1479 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AABDCF2928DF5E005C1479 /* Event.swift */; };
+		50AABDD22928DFD1005C1479 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AABDD12928DFD1005C1479 /* Category.swift */; };
+		50AABDD82928ED10005C1479 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AABDD72928ED10005C1479 /* Publisher.swift */; };
+		50AB9B9529290EB700F891AE /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9B9429290EB600F891AE /* KeyChain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		50811DDB2928CEB100727047 /* HackaTUMCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackaTUMCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50811DDF2928CEB100727047 /* HackaTUMCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityUITests.swift; sourceTree = "<group>"; };
 		50811DE12928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50A46CD72928F6420044D734 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		50AABDC92928DE2B005C1479 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = SOURCE_ROOT; };
+		50AABDCD2928DE7E005C1479 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = SOURCE_ROOT; };
+		50AABDCF2928DF5E005C1479 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = SOURCE_ROOT; };
+		50AABDD12928DFD1005C1479 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = SOURCE_ROOT; };
+		50AABDD72928ED10005C1479 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Publisher.swift; path = HackaTUMCity/Publisher.swift; sourceTree = SOURCE_ROOT; };
+		50AB9B9429290EB600F891AE /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +89,6 @@
 		50811DB72928CEAF00727047 = {
 			isa = PBXGroup;
 			children = (
-				50811DF12928CF7F00727047 /* Announcements Subsystem */,
-				50811DF02928CF0000727047 /* Notifications Subsystem */,
-				50811DEE2928CEDC00727047 /* Models */,
 				50811DC22928CEAF00727047 /* HackaTUMCity */,
 				50811DD42928CEB100727047 /* HackaTUMCityTests */,
 				50811DDE2928CEB100727047 /* HackaTUMCityUITests */,
@@ -98,6 +109,9 @@
 		50811DC22928CEAF00727047 /* HackaTUMCity */ = {
 			isa = PBXGroup;
 			children = (
+				50811DF12928CF7F00727047 /* Announcements Subsystem */,
+				50811DF02928CF0000727047 /* Notifications Subsystem */,
+				50811DEE2928CEDC00727047 /* Models */,
 				50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */,
 				50811DC52928CEAF00727047 /* ContentView.swift */,
 				50811DC72928CEB100727047 /* Assets.xcassets */,
@@ -135,6 +149,8 @@
 		50811DEE2928CEDC00727047 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				50A46CD92928F9520044D734 /* User */,
+				50AABDC92928DE2B005C1479 /* Model.swift */,
 				50811DEF2928CEF500727047 /* Object Models */,
 			);
 			path = Models;
@@ -143,6 +159,10 @@
 		50811DEF2928CEF500727047 /* Object Models */ = {
 			isa = PBXGroup;
 			children = (
+				50AABDCD2928DE7E005C1479 /* Message.swift */,
+				50AABDCF2928DF5E005C1479 /* Event.swift */,
+				50AABDD12928DFD1005C1479 /* Category.swift */,
+				50AABDD72928ED10005C1479 /* Publisher.swift */,
 			);
 			path = "Object Models";
 			sourceTree = "<group>";
@@ -151,14 +171,33 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Notifications Subsystem";
+			name = "Notifications Subsystem";
+			path = "../Notifications Subsystem";
 			sourceTree = "<group>";
 		};
 		50811DF12928CF7F00727047 /* Announcements Subsystem */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Announcements Subsystem";
+			name = "Announcements Subsystem";
+			path = "../Announcements Subsystem";
+			sourceTree = "<group>";
+		};
+		50A46CD92928F9520044D734 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				50A46CDD2928F98B0044D734 /* User */,
+				50AB9B9429290EB600F891AE /* KeyChain.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		50A46CDD2928F98B0044D734 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				50A46CD72928F6420044D734 /* User.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,8 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AABDD82928ED10005C1479 /* Publisher.swift in Sources */,
+				50AABDCE2928DE7E005C1479 /* Message.swift in Sources */,
+				50AABDD02928DF5E005C1479 /* Event.swift in Sources */,
 				50811DC62928CEAF00727047 /* ContentView.swift in Sources */,
+				50AABDCA2928DE2C005C1479 /* Model.swift in Sources */,
 				50811DC42928CEAF00727047 /* HackaTUMCityApp.swift in Sources */,
+				50A46CD82928F6420044D734 /* User.swift in Sources */,
+				50AB9B9529290EB700F891AE /* KeyChain.swift in Sources */,
+				50AABDD22928DFD1005C1479 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

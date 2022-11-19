@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1EC0F329291ACE00A9C0C0 /* NotificationOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC0F229291ACE00A9C0C0 /* NotificationOverviewView.swift */; };
+		0B1EC0F529291B0600A9C0C0 /* NotificationComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC0F429291B0600A9C0C0 /* NotificationComponentView.swift */; };
+		0B1EC0FD29291C9F00A9C0C0 /* ProfileDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC0FC29291C9F00A9C0C0 /* ProfileDetails.swift */; };
+		0B1EC0FF29291CF900A9C0C0 /* ProfileButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC0FE29291CF900A9C0C0 /* ProfileButtonView.swift */; };
+		0B1EC10129292E3E00A9C0C0 /* MockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1EC10029292E3E00A9C0C0 /* MockModel.swift */; };
 		50811DC42928CEAF00727047 /* HackaTUMCityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */; };
 		50811DC62928CEAF00727047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DC52928CEAF00727047 /* ContentView.swift */; };
 		50811DC82928CEB100727047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50811DC72928CEB100727047 /* Assets.xcassets */; };
@@ -41,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1EC0F229291ACE00A9C0C0 /* NotificationOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationOverviewView.swift; sourceTree = SOURCE_ROOT; };
+		0B1EC0F429291B0600A9C0C0 /* NotificationComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationComponentView.swift; sourceTree = SOURCE_ROOT; };
+		0B1EC0FC29291C9F00A9C0C0 /* ProfileDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetails.swift; sourceTree = "<group>"; };
+		0B1EC0FE29291CF900A9C0C0 /* ProfileButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileButtonView.swift; sourceTree = "<group>"; };
+		0B1EC10029292E3E00A9C0C0 /* MockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockModel.swift; sourceTree = "<group>"; };
 		50811DC02928CEAF00727047 /* HackaTUMCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaTUMCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityApp.swift; sourceTree = "<group>"; };
 		50811DC52928CEAF00727047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +161,7 @@
 			children = (
 				50A46CD92928F9520044D734 /* User */,
 				50AABDC92928DE2B005C1479 /* Model.swift */,
+				0B1EC10029292E3E00A9C0C0 /* MockModel.swift */,
 				50811DEF2928CEF500727047 /* Object Models */,
 			);
 			path = Models;
@@ -170,6 +181,10 @@
 		50811DF02928CF0000727047 /* Notifications Subsystem */ = {
 			isa = PBXGroup;
 			children = (
+				0B1EC0FC29291C9F00A9C0C0 /* ProfileDetails.swift */,
+				0B1EC0F229291ACE00A9C0C0 /* NotificationOverviewView.swift */,
+				0B1EC0F429291B0600A9C0C0 /* NotificationComponentView.swift */,
+				0B1EC0FE29291CF900A9C0C0 /* ProfileButtonView.swift */,
 			);
 			name = "Notifications Subsystem";
 			path = "../Notifications Subsystem";
@@ -333,12 +348,17 @@
 				50AABDD82928ED10005C1479 /* Publisher.swift in Sources */,
 				50AABDCE2928DE7E005C1479 /* Message.swift in Sources */,
 				50AABDD02928DF5E005C1479 /* Event.swift in Sources */,
+				0B1EC10129292E3E00A9C0C0 /* MockModel.swift in Sources */,
 				50811DC62928CEAF00727047 /* ContentView.swift in Sources */,
 				50AABDCA2928DE2C005C1479 /* Model.swift in Sources */,
 				50811DC42928CEAF00727047 /* HackaTUMCityApp.swift in Sources */,
+				0B1EC0F529291B0600A9C0C0 /* NotificationComponentView.swift in Sources */,
+				0B1EC0FF29291CF900A9C0C0 /* ProfileButtonView.swift in Sources */,
 				50A46CD82928F6420044D734 /* User.swift in Sources */,
 				50AB9B9529290EB700F891AE /* KeyChain.swift in Sources */,
+				0B1EC0F329291ACE00A9C0C0 /* NotificationOverviewView.swift in Sources */,
 				50AABDD22928DFD1005C1479 /* Category.swift in Sources */,
+				0B1EC0FD29291C9F00A9C0C0 /* ProfileDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

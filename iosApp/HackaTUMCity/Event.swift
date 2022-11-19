@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-public class Event: Message {
+public class Event: Message, Codable {
     let timeStart: Date
     let timeEnd: Date
     let location: String   //Nacher

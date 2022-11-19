@@ -5,7 +5,7 @@
 //  Created by Pascal Weißleder on 19.11.22.
 //
 
-import Foundation
+/*import Foundation
 
 class EventsRequest{
     let url: URL
@@ -23,3 +23,4 @@ extension EventsRequest: NetworkRequest {
            load(url, withCompletion: completion)
        }
 }
+ */

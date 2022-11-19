@@ -56,11 +56,6 @@ public struct User: Codable {
 
 
 // MARK: User: Identifiable
-extension User: Identifiable { }
-
-
-// MARK: User: Codable
-extension User: Codable {}
 
 /// The Constants that are used to store and load the user from persistent storage
 private enum UserData {

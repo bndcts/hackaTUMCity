@@ -7,15 +7,6 @@
 
 import Foundation
 
-public class Paser {
+public class Paser {}
     
-    
-    public func fetchMessage() async throws -> Message {
-        let url = URL(string: ConnectionHandler.serverUrl + "//api/messages")
-        let (data, _) = try await URLSession.shared.data(from: url)
-        return 
-           
-        }
-    }
-    
-}
+

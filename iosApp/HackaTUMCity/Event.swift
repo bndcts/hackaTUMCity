@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-public class Event: Message, Codable {
+public class Event: Message {
     let timeStart: Date
     let timeEnd: Date?
     let location: String   //Nacher
@@ -25,5 +25,9 @@ public class Event: Message, Codable {
        self.location = location
        self.publisher = publisher
        super.init(id: id, category: category, info: info)
+    }
+    
+    required init(from decoder: Decoder) throws {
+        fatalError("init(from:) has not been implemented")
     }
 }

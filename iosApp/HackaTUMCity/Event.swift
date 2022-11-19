@@ -10,7 +10,7 @@ import SwiftUI
 
 public class Event: Message, Codable {
     let timeStart: Date
-    let timeEnd: Date
+    let timeEnd: Date?
     let location: String   //Nacher
     let publisher: Publisher 
     
@@ -18,7 +18,7 @@ public class Event: Message, Codable {
          category: Category,
          info: String?,
          timeStart: Date,
-         timeEnd: Date,
+         timeEnd: Date?,
         location: String, publisher: Publisher) {
        self.timeStart = timeStart
        self.timeEnd = timeEnd
@@ -26,5 +26,4 @@ public class Event: Message, Codable {
        self.publisher = publisher
        super.init(id: id, category: category, info: info)
     }
-    
 }

@@ -11,7 +11,7 @@ struct ContentView: View {
     @EnvironmentObject public var model: Model
     
     var body: some View {
-        if model.user != nil{
+        if model.user == nil{
             Text("Login")
         }else{
             TabView {

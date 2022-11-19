@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct User {
+public struct User: Codable {
     public var id: UUID?
     public var username: String
     var token: String?

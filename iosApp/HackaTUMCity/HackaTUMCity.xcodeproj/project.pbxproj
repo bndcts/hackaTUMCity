@@ -26,6 +26,13 @@
 		50AABDD22928DFD1005C1479 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AABDD12928DFD1005C1479 /* Category.swift */; };
 		50AABDD82928ED10005C1479 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AABDD72928ED10005C1479 /* Publisher.swift */; };
 		50AB9B9529290EB700F891AE /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9B9429290EB600F891AE /* KeyChain.swift */; };
+		50AB9B9A2929181600F891AE /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9B992929181600F891AE /* Parser.swift */; };
+		50AB9B9C2929186200F891AE /* ConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9B9B2929186200F891AE /* ConnectionHandler.swift */; };
+		50AB9B9F29292F4700F891AE /* APIResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9B9E29292F4700F891AE /* APIResource.swift */; };
+		50AB9BA12929318700F891AE /* MessageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9BA02929318700F891AE /* MessageResource.swift */; };
+		50AB9BA32929323E00F891AE /* EventResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9BA22929323E00F891AE /* EventResource.swift */; };
+		50AB9BA52929336800F891AE /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9BA42929336800F891AE /* NetworkRequest.swift */; };
+		50AB9BA72929342A00F891AE /* EventsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AB9BA62929342A00F891AE /* EventsRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +76,13 @@
 		50AABDD12928DFD1005C1479 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = SOURCE_ROOT; };
 		50AABDD72928ED10005C1479 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Publisher.swift; path = HackaTUMCity/Publisher.swift; sourceTree = SOURCE_ROOT; };
 		50AB9B9429290EB600F891AE /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
+		50AB9B992929181600F891AE /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		50AB9B9B2929186200F891AE /* ConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHandler.swift; sourceTree = "<group>"; };
+		50AB9B9E29292F4700F891AE /* APIResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResource.swift; sourceTree = "<group>"; };
+		50AB9BA02929318700F891AE /* MessageResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageResource.swift; sourceTree = "<group>"; };
+		50AB9BA22929323E00F891AE /* EventResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventResource.swift; sourceTree = "<group>"; };
+		50AB9BA42929336800F891AE /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		50AB9BA62929342A00F891AE /* EventsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +133,8 @@
 		50811DC22928CEAF00727047 /* HackaTUMCity */ = {
 			isa = PBXGroup;
 			children = (
+				50AB9B98292917E300F891AE /* Login */,
+				50AB9B97292915AE00F891AE /* Network */,
 				50811DF12928CF7F00727047 /* Announcements Subsystem */,
 				50811DF02928CF0000727047 /* Notifications Subsystem */,
 				50811DEE2928CEDC00727047 /* Models */,
@@ -159,6 +175,7 @@
 		50811DEE2928CEDC00727047 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				50AB9B9D29292DAB00F891AE /* Network */,
 				50A46CD92928F9520044D734 /* User */,
 				50AABDC92928DE2B005C1479 /* Model.swift */,
 				0B1EC10029292E3E00A9C0C0 /* MockModel.swift */,
@@ -213,6 +230,34 @@
 				50A46CD72928F6420044D734 /* User.swift */,
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		50AB9B97292915AE00F891AE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				50AB9B992929181600F891AE /* Parser.swift */,
+				50AB9B9B2929186200F891AE /* ConnectionHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		50AB9B98292917E300F891AE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		50AB9B9D29292DAB00F891AE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				50AB9B9E29292F4700F891AE /* APIResource.swift */,
+				50AB9BA02929318700F891AE /* MessageResource.swift */,
+				50AB9BA22929323E00F891AE /* EventResource.swift */,
+				50AB9BA42929336800F891AE /* NetworkRequest.swift */,
+				50AB9BA62929342A00F891AE /* EventsRequest.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +392,9 @@
 			files = (
 				50AABDD82928ED10005C1479 /* Publisher.swift in Sources */,
 				50AABDCE2928DE7E005C1479 /* Message.swift in Sources */,
+				50AB9BA32929323E00F891AE /* EventResource.swift in Sources */,
+				50AB9B9A2929181600F891AE /* Parser.swift in Sources */,
+				50AB9BA52929336800F891AE /* NetworkRequest.swift in Sources */,
 				50AABDD02928DF5E005C1479 /* Event.swift in Sources */,
 				0B1EC10129292E3E00A9C0C0 /* MockModel.swift in Sources */,
 				50811DC62928CEAF00727047 /* ContentView.swift in Sources */,
@@ -357,6 +405,10 @@
 				50A46CD82928F6420044D734 /* User.swift in Sources */,
 				50AB9B9529290EB700F891AE /* KeyChain.swift in Sources */,
 				0B1EC0F329291ACE00A9C0C0 /* NotificationOverviewView.swift in Sources */,
+				50AB9BA12929318700F891AE /* MessageResource.swift in Sources */,
+				50AB9BA72929342A00F891AE /* EventsRequest.swift in Sources */,
+				50AB9B9C2929186200F891AE /* ConnectionHandler.swift in Sources */,
+				50AB9B9F29292F4700F891AE /* APIResource.swift in Sources */,
 				50AABDD22928DFD1005C1479 /* Category.swift in Sources */,
 				0B1EC0FD29291C9F00A9C0C0 /* ProfileDetails.swift in Sources */,
 			);

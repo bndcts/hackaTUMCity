@@ -10,7 +10,7 @@ import SwiftUI
 
 public class Event: Message {
     let timeStart: Date
-    let timeEnd: Date
+    let timeEnd: Date?
     let location: String   //Nacher
     let publisher: Publisher 
     
@@ -18,7 +18,7 @@ public class Event: Message {
          category: Category,
          info: String?,
          timeStart: Date,
-         timeEnd: Date,
+         timeEnd: Date?,
         location: String, publisher: Publisher) {
        self.timeStart = timeStart
        self.timeEnd = timeEnd
@@ -27,4 +27,7 @@ public class Event: Message {
        super.init(id: id, category: category, info: info)
     }
     
+    required init(from decoder: Decoder) throws {
+        fatalError("init(from:) has not been implemented")
+    }
 }

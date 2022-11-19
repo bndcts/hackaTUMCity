@@ -7,10 +7,9 @@
 
 import Foundation
 
-public enum Publisher: String {
+public enum Publisher: String, Codable {
     case mvg = "MVG"
     case swm = "SWM"
     case user = "user"
     case polizei = "Polizei"
-    
 }

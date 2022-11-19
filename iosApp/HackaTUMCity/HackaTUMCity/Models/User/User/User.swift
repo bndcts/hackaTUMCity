@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct User {
+public struct User: Codable {
     public var id: UUID?
     public var username: String
     var token: String?
@@ -56,11 +56,6 @@ public struct User {
 
 
 // MARK: User: Identifiable
-extension User: Identifiable { }
-
-
-// MARK: User: Codable
-extension User: Codable {}
 
 /// The Constants that are used to store and load the user from persistent storage
 private enum UserData {

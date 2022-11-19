@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum Category: String{
+public enum Category: String, Codable {
     case giftBox = "Gift Box"
     case relocation = "Relocation"
     case construction = "Construction"

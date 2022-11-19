@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50811DC42928CEAF00727047 /* HackaTUMCityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */; };
+		50811DC62928CEAF00727047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DC52928CEAF00727047 /* ContentView.swift */; };
+		50811DC82928CEB100727047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50811DC72928CEB100727047 /* Assets.xcassets */; };
+		50811DCC2928CEB100727047 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50811DCB2928CEB100727047 /* Preview Assets.xcassets */; };
+		50811DD62928CEB100727047 /* HackaTUMCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DD52928CEB100727047 /* HackaTUMCityTests.swift */; };
+		50811DE02928CEB100727047 /* HackaTUMCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DDF2928CEB100727047 /* HackaTUMCityUITests.swift */; };
+		50811DE22928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50811DE12928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50811DD22928CEB100727047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50811DB82928CEAF00727047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50811DBF2928CEAF00727047;
+			remoteInfo = HackaTUMCity;
+		};
+		50811DDC2928CEB100727047 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50811DB82928CEAF00727047 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50811DBF2928CEAF00727047;
+			remoteInfo = HackaTUMCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50811DC02928CEAF00727047 /* HackaTUMCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackaTUMCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityApp.swift; sourceTree = "<group>"; };
+		50811DC52928CEAF00727047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50811DC72928CEB100727047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50811DC92928CEB100727047 /* HackaTUMCity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HackaTUMCity.entitlements; sourceTree = "<group>"; };
+		50811DCB2928CEB100727047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50811DD12928CEB100727047 /* HackaTUMCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackaTUMCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50811DD52928CEB100727047 /* HackaTUMCityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityTests.swift; sourceTree = "<group>"; };
+		50811DDB2928CEB100727047 /* HackaTUMCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackaTUMCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50811DDF2928CEB100727047 /* HackaTUMCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityUITests.swift; sourceTree = "<group>"; };
+		50811DE12928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackaTUMCityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50811DBD2928CEAF00727047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50811DCE2928CEB100727047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50811DD82928CEB100727047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50811DB72928CEAF00727047 = {
+			isa = PBXGroup;
+			children = (
+				50811DF12928CF7F00727047 /* Announcements Subsystem */,
+				50811DF02928CF0000727047 /* Notifications Subsystem */,
+				50811DEE2928CEDC00727047 /* Models */,
+				50811DC22928CEAF00727047 /* HackaTUMCity */,
+				50811DD42928CEB100727047 /* HackaTUMCityTests */,
+				50811DDE2928CEB100727047 /* HackaTUMCityUITests */,
+				50811DC12928CEAF00727047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50811DC12928CEAF00727047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50811DC02928CEAF00727047 /* HackaTUMCity.app */,
+				50811DD12928CEB100727047 /* HackaTUMCityTests.xctest */,
+				50811DDB2928CEB100727047 /* HackaTUMCityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50811DC22928CEAF00727047 /* HackaTUMCity */ = {
+			isa = PBXGroup;
+			children = (
+				50811DC32928CEAF00727047 /* HackaTUMCityApp.swift */,
+				50811DC52928CEAF00727047 /* ContentView.swift */,
+				50811DC72928CEB100727047 /* Assets.xcassets */,
+				50811DC92928CEB100727047 /* HackaTUMCity.entitlements */,
+				50811DCA2928CEB100727047 /* Preview Content */,
+			);
+			path = HackaTUMCity;
+			sourceTree = "<group>";
+		};
+		50811DCA2928CEB100727047 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50811DCB2928CEB100727047 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50811DD42928CEB100727047 /* HackaTUMCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				50811DD52928CEB100727047 /* HackaTUMCityTests.swift */,
+			);
+			path = HackaTUMCityTests;
+			sourceTree = "<group>";
+		};
+		50811DDE2928CEB100727047 /* HackaTUMCityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50811DDF2928CEB100727047 /* HackaTUMCityUITests.swift */,
+				50811DE12928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift */,
+			);
+			path = HackaTUMCityUITests;
+			sourceTree = "<group>";
+		};
+		50811DEE2928CEDC00727047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50811DEF2928CEF500727047 /* Object Models */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50811DEF2928CEF500727047 /* Object Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Object Models";
+			sourceTree = "<group>";
+		};
+		50811DF02928CF0000727047 /* Notifications Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Notifications Subsystem";
+			sourceTree = "<group>";
+		};
+		50811DF12928CF7F00727047 /* Announcements Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Announcements Subsystem";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50811DBF2928CEAF00727047 /* HackaTUMCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50811DE52928CEB100727047 /* Build configuration list for PBXNativeTarget "HackaTUMCity" */;
+			buildPhases = (
+				50811DBC2928CEAF00727047 /* Sources */,
+				50811DBD2928CEAF00727047 /* Frameworks */,
+				50811DBE2928CEAF00727047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackaTUMCity;
+			productName = HackaTUMCity;
+			productReference = 50811DC02928CEAF00727047 /* HackaTUMCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50811DD02928CEB100727047 /* HackaTUMCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50811DE82928CEB100727047 /* Build configuration list for PBXNativeTarget "HackaTUMCityTests" */;
+			buildPhases = (
+				50811DCD2928CEB100727047 /* Sources */,
+				50811DCE2928CEB100727047 /* Frameworks */,
+				50811DCF2928CEB100727047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50811DD32928CEB100727047 /* PBXTargetDependency */,
+			);
+			name = HackaTUMCityTests;
+			productName = HackaTUMCityTests;
+			productReference = 50811DD12928CEB100727047 /* HackaTUMCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50811DDA2928CEB100727047 /* HackaTUMCityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50811DEB2928CEB100727047 /* Build configuration list for PBXNativeTarget "HackaTUMCityUITests" */;
+			buildPhases = (
+				50811DD72928CEB100727047 /* Sources */,
+				50811DD82928CEB100727047 /* Frameworks */,
+				50811DD92928CEB100727047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50811DDD2928CEB100727047 /* PBXTargetDependency */,
+			);
+			name = HackaTUMCityUITests;
+			productName = HackaTUMCityUITests;
+			productReference = 50811DDB2928CEB100727047 /* HackaTUMCityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50811DB82928CEAF00727047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					50811DBF2928CEAF00727047 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					50811DD02928CEB100727047 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 50811DBF2928CEAF00727047;
+					};
+					50811DDA2928CEB100727047 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 50811DBF2928CEAF00727047;
+					};
+				};
+			};
+			buildConfigurationList = 50811DBB2928CEAF00727047 /* Build configuration list for PBXProject "HackaTUMCity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50811DB72928CEAF00727047;
+			productRefGroup = 50811DC12928CEAF00727047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50811DBF2928CEAF00727047 /* HackaTUMCity */,
+				50811DD02928CEB100727047 /* HackaTUMCityTests */,
+				50811DDA2928CEB100727047 /* HackaTUMCityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50811DBE2928CEAF00727047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50811DCC2928CEB100727047 /* Preview Assets.xcassets in Resources */,
+				50811DC82928CEB100727047 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50811DCF2928CEB100727047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50811DD92928CEB100727047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50811DBC2928CEAF00727047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50811DC62928CEAF00727047 /* ContentView.swift in Sources */,
+				50811DC42928CEAF00727047 /* HackaTUMCityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50811DCD2928CEB100727047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50811DD62928CEB100727047 /* HackaTUMCityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50811DD72928CEB100727047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50811DE02928CEB100727047 /* HackaTUMCityUITests.swift in Sources */,
+				50811DE22928CEB100727047 /* HackaTUMCityUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50811DD32928CEB100727047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50811DBF2928CEAF00727047 /* HackaTUMCity */;
+			targetProxy = 50811DD22928CEB100727047 /* PBXContainerItemProxy */;
+		};
+		50811DDD2928CEB100727047 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50811DBF2928CEAF00727047 /* HackaTUMCity */;
+			targetProxy = 50811DDC2928CEB100727047 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50811DE32928CEB100727047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50811DE42928CEB100727047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		50811DE62928CEB100727047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HackaTUMCity/HackaTUMCity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackaTUMCity/Preview Content\"";
+				DEVELOPMENT_TEAM = RF5MBDMVN8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.weissleder.HackaTUMCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50811DE72928CEB100727047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HackaTUMCity/HackaTUMCity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HackaTUMCity/Preview Content\"";
+				DEVELOPMENT_TEAM = RF5MBDMVN8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.weissleder.HackaTUMCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50811DE92928CEB100727047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF5MBDMVN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.weissleder.HackaTUMCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackaTUMCity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackaTUMCity";
+			};
+			name = Debug;
+		};
+		50811DEA2928CEB100727047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF5MBDMVN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.weissleder.HackaTUMCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackaTUMCity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HackaTUMCity";
+			};
+			name = Release;
+		};
+		50811DEC2928CEB100727047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF5MBDMVN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.weissleder.HackaTUMCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackaTUMCity;
+			};
+			name = Debug;
+		};
+		50811DED2928CEB100727047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RF5MBDMVN8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pascal.weissleder.HackaTUMCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackaTUMCity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50811DBB2928CEAF00727047 /* Build configuration list for PBXProject "HackaTUMCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50811DE32928CEB100727047 /* Debug */,
+				50811DE42928CEB100727047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50811DE52928CEB100727047 /* Build configuration list for PBXNativeTarget "HackaTUMCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50811DE62928CEB100727047 /* Debug */,
+				50811DE72928CEB100727047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50811DE82928CEB100727047 /* Build configuration list for PBXNativeTarget "HackaTUMCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50811DE92928CEB100727047 /* Debug */,
+				50811DEA2928CEB100727047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50811DEB2928CEB100727047 /* Build configuration list for PBXNativeTarget "HackaTUMCityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50811DEC2928CEB100727047 /* Debug */,
+				50811DED2928CEB100727047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50811DB82928CEAF00727047 /* Project object */;
+}

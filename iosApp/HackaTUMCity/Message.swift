@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class Message: Identifiable{
+public class Message: Identifiable, Codable{
     public let id: UUID
     var category: Category
     var info: String

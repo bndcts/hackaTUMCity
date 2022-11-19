@@ -15,7 +15,7 @@ struct ContentView: View {
             Text("Login")
         }else{
             TabView {
-                Text("NotificationStub")
+                NotificationOverviewView()
                     .tabItem {
                         Image(systemName: "building.2")
                         Text("Notifications")
@@ -33,6 +33,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(MockModel(notifications: [], announcements: []))
     }
 }

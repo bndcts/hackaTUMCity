@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87c42f87-2e3b-4e72-83f0-850c7372f1fe" name="Changes" comment="ganz viel openapi kacke">
-      <change afterPath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/Docker/BackendOhneOpenAPI-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/Docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/Docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/api-docs.yaml" beforeDir="false" />
+    <list default="true" id="87c42f87-2e3b-4e72-83f0-850c7372f1fe" name="Changes" comment="Maven und docker setup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/Docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/Docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/java/com/example/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/java/com/example/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BackendOhneOpenAPI/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +66,22 @@
       <recent name="C:\Prog\Java\PGdP Präsenz\hackaTUMCity\Backend\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker.app: Compose Deployment">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="BackendOhneOpenAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Backend" />
@@ -101,14 +114,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Docker/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="BackendOhneOpenAPI/src/main/Docker/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="Docker.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -137,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Docker.app: Compose Deployment" />
-        <item itemvalue="HTTP Request.generated-requests#1" />
+        <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Docker.Docker: Compose Deployment" />
         <item itemvalue="Docker.Docker.db: Compose Deployment" />
-        <item itemvalue="Docker.Docker/Dockerfile" />
+        <item itemvalue="Docker.Docker.app: Compose Deployment" />
+        <item itemvalue="HTTP Request.generated-requests#1" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +163,7 @@
       <workItem from="1668815128135" duration="5208000" />
       <workItem from="1668853676293" duration="1099000" />
       <workItem from="1668856194142" duration="3287000" />
-      <workItem from="1668859660063" duration="4266000" />
+      <workItem from="1668859660063" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1668813157857</created>
@@ -174,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668852426308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Maven und docker setup">
+      <created>1668867665713</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668867665713</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
     <MESSAGE value="ganz viel openapi kacke" />
-    <option name="LAST_COMMIT_MESSAGE" value="ganz viel openapi kacke" />
+    <MESSAGE value="Maven und docker setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven und docker setup" />
   </component>
 </project>
